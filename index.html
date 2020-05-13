@@ -1,258 +1,205 @@
-<!DOCTYPE HTML>
-
-<html>
-
-<head>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-
-    <meta charset="utf-8">
-
-    <!-- Description, Keywords and Author -->
-
-    <meta name="description" content="Jewellery designer, maker, tutor">
-    <meta name="author" content="Lesley Peate">
-
-    <title>Lesley Jane Jewellery</title>
-
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-
-    <!-- style -->
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <!-- style -->
-
-    <!-- bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <!-- responsive -->
-
-    <link href="css/responsive.css" rel="stylesheet" type="text/css">
-
-    <!-- font-awesome -->
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <!-- font-awesome -->
-
-    <link href="css/effects/set2.css" rel="stylesheet" type="text/css">
-    <link href="css/effects/normalize.css" rel="stylesheet" type="text/css">
-    <link href="css/effects/component.css"  rel="stylesheet" type="text/css" >
-
-</head>
-
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+.lesley-blue
+{color:#fff;background-color:#0b1328}
+</style>
 <body>
-    <!-- header -->
-    <header role="header">
 
-    <div class="container">
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar lesley-blue w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#jewellery" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="#workshops" class="w3-bar-item w3-button w3-padding-large w3-hide-small">WORKSHOPS</a>
+    <a href="#buy" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BUY</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+  </div>
+</div>
 
-        <!-- logo -->
-        <h1>
-            <a href="index.html" title="lesley jane jewellery"><img src="images/logo_no_text.png" title="lesley jane jewellery" alt="home"/></a>
-        </h1>
-        <!-- logo -->
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block lesley-blue w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#jewellery" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="#workshops" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">WORKSHOPS</a>
+  <a href="#buy" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BUY</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+</div>
 
-        <!-- nav -->
-        <nav role="header-nav" class="navy">
-        <ul>
-            <li class="nav-active"><a href="workshops.html" title="Workshops">Workshops</a></li>
-            <li><a href="portfolio.html" title="Gallery">Gallery</a></li>
-            <li><a href="blog.html" title="Blog">Blog</a></li>
-            <li><a href="about.html" title="About">About</a></li>
-            <li><a href="contact.html" title="Contact">Contact</a></li>
-        </ul>
-        </nav>
-        <!-- nav -->
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/hammering.JPG" style="width:100%">
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/open_day.JPG" style="width:100%">
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/copper_ware.JPG" style="width:100%">
+  </div>
+
+  <!-- Jewellery Section -->
+  <div class="lesley-blue" >    
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="jewellery">
+    <h2 class="w3-wide">ABOUT MY WORK</h2>
+    <p class="w3-opacity"><i>Silver, copper and enamelled jewellery and small metalwork, using reclaimed and recycled metal</i></p>
+    <p class="w3-justify">
+        I work in copper, silver and enamel and use recycled or reclaimed metal, wherever possible. My work is frequently nostalgic, taking inspiration from book illustrations, maps, vintage ceramics and fabrics. I like to combine traditional metal working &amp; enamelling techniques with collage and digital design tools. Previously based at Flameworks Creative Arts Facility, in Devon, I moved to Wales in 2017 and currently have a studio on Western Avenue, in Cardiff. I sell my work online via my Folksy store, through monthly markets at the Bridge Studios and through selected shops and galleries.</p> 
+    <p class="w3-justify">
+        Having my own studio allows me to run small-group workshops in enamelling and jewellery making. Students at the workshops enjoy the creative atmosphere, the opportunity to use a range of metal working tools and the chance to learn a new skill or just try something different. I love seeing the range of things that students make as well as the ideas and creativity that they bring to the workshops. The small group sessions ensure that everyone gets the attention they deserve and everyone goes home with one or more completed items of jewellery. I am always happy to welcome visitors to my studio and I enjoy the chance to talk about my work, regardless of whether or not you are looking to buy a piece of jewellery </p>
+      
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <img src="images/Decanter%20tray%20cuff3.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:80%">
+      </div>
+      <div class="w3-third">
+        <img src="images/earrings.JPG" class="w3-round w3-margin-bottom" alt="Random Name" style="width:80%">
+      </div>
+      <div class="w3-third">
+        <img src="images/bowl%205.JPG" class="w3-round" alt="Random Name" style="width:80%">
+      </div>
     </div>
-    </header>
-
-    <!-- header -->
-
-    <!-- main -->
-    <main role="main-home-wrapper" class="container">
-    <div class="row">
-        <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ">
-        <article role="pge-title-content">
-        <header>
-            <h2><span>Lesley Jane</span> Jewellery and Coppersmithing</h2>
-        </header>
-        <p>Jewellery, copperware and workshops based at the Bridge Studios in Cardiff</p>
-        </article>
-        </section>
-
-   <!--     <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6 grid">
-        <figure class="effect-oscar">
-            <img src="images/cuff.jpg" alt="" class="img-responsive"/>
-            <figcaption>
-                <h2>Silver, Copper, Enamel<span> Jewellery</span></h2>
-                <p></p>
-                <a href="portfolio.html">View more</a>
-            </figcaption>
-        </figure>
-        </section>-->
-        <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6 grid">
-        <figure class="effect-oscar">
-            <img src="images/blog-images/2Sept19.jpg" alt="" class="img-responsive"/>
-            <figcaption>
-                <h2>Open Studio<span> 21 September</span></h2>
-                <p></p>
-                <a href="blog_pages/2sept19.html">View more</a>
-            </figcaption>
-        </figure>
-        </section>
-
-        <div class="clearfix"></div>
-
-        <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6 grid">
-            <ul class="grid-lod effect-2" id="grid">
-                <li>
-                <figure class="effect-oscar">
-                <img src="images/workshops/haveago.jpg" alt="" class="img-responsive"/>
-                <figcaption>
-                    <h2>Have a go at Enamelling <span>Workshop</span></h2>
-                    <p>Enamelling on copper with kiln-fired vitreous enamel, suitable for complete beginners. You will explore several decorative techniques and complete 3 pendants to take home.</p>
-                    <a href="workshops.html#haveago">View more</a>
-                </figcaption>
-                </figure>
-                </li>
-                
-                <li>
-                <figure class="effect-oscar">
-                <img src="images/workshops/reclaimed.jpg" alt="" class="img-responsive"/>
-                <figcaption>
-                    <h3>Jewellery from reclaimed copper<span> workshop</span></h3>
-                    <p>Use traditional metalworking tools and techniques to turn copper reclaimed from electrical cable and heating pipes into jewellery</p>
-                    <a href="workshops.html#reclaimed">View more</a>
-                </figcaption>
-                </figure>
-                </li>
-                <li>
-                <figure class="effect-oscar">
-                <img src="images/workshops/wreaths.JPG" alt="" class="img-responsive"/>
-                <figcaption>
-                    <h2>Copper wire <span>wreath making</span></h2>
-                    <p>Make a stunning wreath from reclaimed copper wire</p>
-                    <a href="workshops.html#wreath">View more</a>
-                </figcaption>
-                </figure>
-                </li>
-            </ul>
-        </section>
-
-        <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6 grid">
-            <ul class="grid-lod effect-2" id="grid">
-                <li>
-                <figure class="effect-oscar">
-                <img src="images/workshops/transparent.jpg" alt="" class="img-responsive"/>
-                <figcaption>
-                    <h3>Transparent enamels and recycled silver</h3>
-                    <p>Melt down some scrap silver and form it into a unique pendant, which you will colour with beautiful, vivid transparent kiln-fired enamel</p>
-                    <a href="workshops.html#transparent">View more</a>
-                </figcaption>
-                </figure>
-                </li>
-
-                <li>
-                <figure class="effect-oscar">
-                <img src="images/workshops/garlands.jpg" alt="" class="img-responsive"/>
-                <figcaption>
-                    <h2>Felt and copper <span>garland making</span></h2>
-                    <p>Make a garland from gorgeous felt and reclaimed copper</p>
-                    <a href="workshops.html#garland">View more</a>
-                </figcaption>
-                </figure>
-                </li>
-                <li>
-                <figure class="effect-oscar">
-                <img src="images/workshops/studiotime.jpg" alt="" class="img-responsive"/>
-                <figcaption>
-                    <h2>Sunday <span>studio time</span></h2>
-                    <p>Come and work on your own projects in my studio! This session is ideal for those who have previously attended one of my workshops and would like to carry on working on their own projects, but don't have the resources to complete them at home. </p>
-                    <a href="workshops.html#studiotime">View more</a>
-                </figcaption>
-                </figure>
-                </li>
-
-            </ul>
-        </section>
-        <div class="clearfix"></div>
+  </div>
+    </div>      
+  <!-- The Workshops Section -->
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="workshops">
+      <h2 class="w3-wide w3-center">WORKSHOPS</h2>
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="images/have_a_go_2.jpg" alt="Have a go at Enamelling" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Have a go at Enamelling</b></p>
+            <p class="w3-opacity"><a href="https://www.craftcourses.com/courses/have-a-go-at-kiln-fired-enamelling" target="_blank">Further details</a></p>
+            <p>A 3 hour workshop, suitable for complete beginners, enamelling on copper with kiln-fired vitreous enamel. Participants will experiment with various decorative techniques and will complete several pieces of jewellery to take home.</p>
+          </div>
         </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="images/copper_jewellery.jpg" alt="Jewellery from Reclaimed Copper" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Jewellery from Reclaimed Copper</b></p>
+            <p class="w3-opacity"><a href="https://www.craftcourses.com/courses/jewellery-from-reclaimed-copper" target="_blank">Further details</a></p>
+            <p>You will use traditional metalworking tools and techniques to turn copper reclaimed from electrical cable and heating pipes into a bracelet and a pendant or a pair of earrings. You will learn how to soften and shape wire, texture metal sheet and use a piercing saw to cut out shapes.</p>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="images/bowls.jpg" alt="Miniature Copper Bowls" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Miniature Copper Bowls</b></p>
+            <p class="w3-opacity"><a href="https://www.craftcourses.com/courses/minature-copper-bowl-making" target="_blank">Further details</a></p>
+            <p>This workshop introduces you to basic metalworking techniques which have been used for centuries to form copper. Cutting a disk from a flat sheet of metal, through successive rounds of heating and beating the metal you will create your own little bowl. </p>
+          </div>
+        </div>
+      </div>
+        
+    <!--   Start of row 2   -->    
+    <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="images/silver2.jpg" alt="Transparent Enamels" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Transparent enamels and recycled silver</b></p>
+            <p class="w3-opacity"><a href="https://www.craftcourses.com/courses/transparent-enamels-and-recycled-silver" target="_blank">Further details</a></p>
+            <p>You will be melting down some scrap pieces of fine silver into an unpredictable shape and then reforming it to make a pendant or perhaps a pair of earrings. Then you’ll add some colour with transparent enamels and create a finished piece of jewellery. </p>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="images/raku.jpg" alt="Raku" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Raku fired enamel soap dishes</b></p>
+            <p class="w3-opacity"><a href="https://www.craftcourses.com/courses/raku-fired-enamel-soap-dish-making" target="_blank">Further details</a></p>
+            <p>On this workshop you will get the chance to have a go at a variety of metal working techniques and some enamelling. At the end of the final firing of your bowl, we will have a go at the raku technique, borrowed from ceramics, which uses smoke to achieve an unpredictable lustrous finish.</p>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="images/workshop_generic.jpg" alt="Bespoke workshop" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Bespoke Workshops</b></p>
+            <p class="w3-opacity">Email me to discuss</p>
+            <p>Bespoke one-to-one or group workshops can be arranged to suit your needs. Ideal for families or groups of friends, wanting to spend some time together, doing something creative.</p>
+          </div>
+        </div>
+      </div>  
+    <!--  end of row 2   -->    
+    </div>
 
-        </main>
-
-    	<!-- main -->
-
-        <!-- footer -->
-
-        <footer role="footer">
-
-            <!-- logo -->
-
-                <h1>
-                <a href="index.html" title="lesley jane jewellery"><img src="images/logo.png" title="lesley jane jewellery" alt="Lesley Jane Jewellery"/></a>
-
-                </h1>
-
-            <!-- logo -->
-
-            <!-- nav -->
-
-            <nav role="footer-nav">
-
-            	<ul>
-                	<li><a href="index.html" title="Workshops">Workshops</a></li>
-                    <li><a href="portfolio.html" title="Gallery">Gallery</a></li>
-                    <li><a href="blog.html" title="blog">blog</a></li>
-                    <li><a href="about.html" title="About">About</a></li>
-                    <li><a href="contact.html" title="Contact">Contact</a></li>
-
-                </ul>
-
-            </nav>
-
-            <!-- nav -->
-
-            <ul role="social-icons">
-
-                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-
-                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-
-            </ul>
-
-            <p class="copy-right">&copy; 2015  avana LLC.. All rights Resved</p>
-
-        </footer>
-
-        <!-- footer -->
 
     
+<!-- Buy Section -->
+  <div id="buy" class="lesley-blue" >
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">BUY</h2>
+      <p class="w3-opacity w3-center"><i>My work is available to buy online, as well as from the shops and galleries listed below. You can buy from me in person at fairs and events throughout the year. Keep an eye on my Facebook page for the latest information about events that I will be attending.</i></p><br>
+      <ul class="w3-ul w3-light-gray w3-text-dark-gray w3-hoverable w3-card-2">
+        <li class="w3-padding">A lot of my work is available to order from my <em>Folksy</em> online shop:<span class="w3-right w3-margin-right"><a href="https://folksy.com/shops/LesleyJaneJewellery" target="_blank">Folksy</a></span></li>
+        <li class="w3-padding"><em><b>Rabbit Rabbit</b></em> in Tavistock Pannier Market stocks a selection of my earrings</li>
+        <li class="w3-padding"><em>Balm Jewellery</em> at Taurus Crafts, in the Forest of Dean stocks a range of my work <span class="w3-right w3-margin-right"><a href="https://www.facebook.com/balmjewels/" target="_blank">Balm Jewellery</a></span></li>
+        <li class="w3-padding">I regularly trade at <em>The Bone Yard Craft Market</em>. Keep an eye on my Facebook, for dates: <span class="w3-right w3-margin-right"><a href="https://www.facebook.com/LesleyJaneJewellery/" target="_blank">Facebook</a></span></li> <li class="w3-padding">I also trade and demonstrate at the St Fagan's Maker's Market: <span class="w3-right w3-margin-right"><a href="https://www.facebook.com/LesleyJaneJewellery/" target="_blank">Facebook</a></span></li>  
+      </ul>
+    </div>
+  </div>
+    
+    
+    
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Drop me a line, or visit my studio! <br>(Always best to drop me a line to check I'm in, first)</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        
+        <i class="fa fa-envelope" style="width:30px"> </i> info@lesley-jane.co.uk<br>
+        <i class="fa fa-facebook-official" style="width:30px"></i>@LesleyJaneJewellery<br>
+        <i class="fa fa-instagram" style="width:30px"></i>@lesleyjanejewellery<br><br>      
+        <i class="fa fa-map-marker" style="width:30px"></i>The Bridge Studios, 454 Western Avenue, Cardiff, CF5 3BL<br></div>
+      <div class="w3-col m6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.5038303738393!2d-3.2310462842308234!3d51.48562117963157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e1b3b9c89acfb%3A0x5db0f26235351d20!2sThe%20Bridge%20Studios!5e0!3m2!1sen!2suk!4v1567869059220!5m2!1sen!2suk" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>  
+      </div> 
+    </div>
+     
+  </div>
+  
+<!-- End Page Content -->
+</div>
 
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- Footer -->
 
-        <script src="js/jquery.min.js" type="text/javascript"></script>
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
 
-        <!-- custom -->
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 8000);    
+}
 
-		<script src="js/nav.js" type="text/javascript"></script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
 
-        <script src="js/custom.js" type="text/javascript"></script>
+</script>
 
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
-
-        <script src="js/effects/masonry.pkgd.min.js"  type="text/javascript"></script>
-
-		<script src="js/effects/imagesloaded.js"  type="text/javascript"></script>
-
-		<script src="js/effects/classie.js"  type="text/javascript"></script>
-
-		<script src="js/effects/AnimOnScroll.js"  type="text/javascript"></script>
-
-        <script src="js/effects/modernizr.custom.js"></script>
-
-        <!-- jquery.countdown -->
-
-        <script src="js/html5shiv.js" type="text/javascript"></script>
-
-    </body>
-
+</body>
 </html>
